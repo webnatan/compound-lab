@@ -1,5 +1,5 @@
 / Destinatário
-$para = "ntnl_s.s@hotmail.com";
+$para = "test@compound.com.br";
 
 // Assunto do e-mail
 $assunto = "Contato do através do site ...";
@@ -23,8 +23,8 @@ $email_headers = implode("\n", array("From: $nome", "Reply-To: $email", "Subject
 if (!empty($nome) && !empty($email) && !empty($mensagem)) {
     mail($para, $assunto, $corpo, $email_headers);
     $msg = "Sua mensagem foi enviada com sucesso.";
-    echo "<script>alert('$msg');window.location.assign('http://www.seusite.com.br/contato');</script>";
+    echo "<script>alert('$msg');window.location.assign('http://www.compound.com.br/contato');</script>";
 } else {
     $msg = "Erro ao enviar a mensagem.";
-    echo "<script>alert('$msg');window.location.assign('http://www.seusite.com.br/contato');</script>";
+    echo "<script>alert('$msg');window.location.assign('http://www.compound.com.br/contato');</script>";
 }
