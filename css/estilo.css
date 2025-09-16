@@ -180,8 +180,8 @@ hr {
   margin: 30px auto 0 auto;
 }
 
-.bck-serv {
-}
+/*.bck-serv {
+}*/
 
 section#servicos .col-serv-1,
 .col-serv-2,
@@ -474,8 +474,8 @@ section#contato p {
   background: #16469d;
   display: inline-block;
   border: none;
-  border-bottom: 1px solid #white;
-  border-right: 1px solid #white;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
   text-align: center;
 }
 .botaoContato:hover {
