@@ -1,0 +1,77 @@
+@media screen and (max-width: 1059px){
+	section{
+		display:none;
+	}
+	section#home{
+		display:block;
+		text-align:center;
+	}
+	
+	section#home{padding:40px;}
+	section#home .texto-botao-centro p {
+		padding-left:50px;
+		padding-right: 50px;
+		font-size:30px;
+	}
+	div.centro{width:100%;}
+	
+	footer a{
+		font-size:15px;
+		width:100%;
+		box-sizing:border-box;
+	}
+	
+	section#servicos {display:block;}
+	section#servicos article {width:100%;}
+	section#servicos p {padding: 0 20px;
+	margin-top:20px;
+	}
+	section#servicos p article {padding:0;}	
+}
+
+@media screen and (max-width: 667px){
+	section{
+		display:none;
+	}
+	section#home{
+		display:block;
+	}
+	
+	section#home nav{
+		float:none;
+		margin-top:20px;
+	}
+	
+	section#home nav a {
+		display:block;
+		width:100%;
+		margin-bottom:1px;
+		box-sizing:border-box;
+		text-align:center;
+	}
+	
+	section#home .texto-botao-centro p {
+		padding-left:50px;
+		padding-right: 50px;
+		font-size:20px;
+	}
+	
+	div.texto-botao-centro{
+		margin-top:20px;
+		position:relative;
+	}
+	
+	footer{
+		padding: 0;
+	}	
+
+	footer a {
+		font-size:15px;
+		display:block;
+		width:100%;
+		box-sizing:border-box;
+		margin:0;
+		padding:10px;
+		border-bottom: solid 1px #273a71;
+	}
+}
