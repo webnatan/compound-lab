@@ -72,7 +72,8 @@ p {
 section {
   /*border: solid 1px red*/
   padding-top: 30px;
-  background-image: url("../img/resina.jpg");
+  /*background-image: url("../img/resina.jpg");*/
+  background-color: #3673b6;
   background-repeat: no-repeat;
   background-size: auto;
   /*background-color: :#16469d;*/
@@ -89,6 +90,14 @@ h1 {
   color: white;
   font-size: 42px;
   line-height: 42px;
+}
+
+h3 {
+  width: auto;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
 }
 
 /*texto-home*/
