@@ -4,6 +4,10 @@
   /*Por padrão o CSS coloca margem, esse código retira ela*/
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   /*background:#87509c; (cor inserida na section)*/
   font-family: "titilliumregular";
